@@ -1,0 +1,175 @@
+h1 {
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  font-size: 2rem;
+}
+
+label {
+  margin-bottom: 20px;
+}
+
+#login {
+  text-align: center;
+}
+
+#signup-link {
+  background-color: #212529;
+  color: #fff;
+  text-align: center;
+  padding: 60px 0 20px;
+}
+
+#signup {
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+#forgot-password {
+  text-align: center;
+}
+
+.navbar {
+  padding: 10px 50px;
+}
+
+.container-fluid {
+  padding-left: 0;
+}
+
+.nav-item {
+  padding: 0 20px 0;
+}
+
+.required {
+  padding-bottom: 20px;
+}
+
+.input {
+  outline-width: 0;
+  border: 1.7px solid;
+  border-style: none none solid;
+  border-color: #dddddd;
+  margin: 20px 0 50px;
+  width: 30%;
+}
+
+.remember-me {
+  margin: 20px 0 20px 10px;
+}
+
+.forgot-password {
+  color: #AAAAAA;
+}
+
+.forgot-password:hover {
+  color: #000;
+}
+
+.login-btn {
+  margin-top: 40px;
+  width: 30%;
+}
+
+.link {
+  padding: 40px 0;
+}
+
+.btn-outline-light {
+  margin-top: 40px;
+  width: 30%;
+  margin-bottom: 40px;
+}
+
+.margin {
+  margin: 0 50px 0 50px;
+}
+
+.key {
+  padding-bottom: 30px;
+}
+
+.warning {
+  font-size: 0.7rem;
+  font-weight: bold;
+}
+
+.row {
+  margin: 20px 0 20px 0;
+}
+
+.data {
+  width: 70%;
+  padding: 5px;
+}
+
+.membership {
+  padding: 30px 0 20px;
+  background-color: #212529;
+  color: #fff;
+  font-size: 20px;
+}
+
+
+.payment {
+  padding: 20px 10px 20px 10px;
+
+}
+
+.card-num {
+  width: 50%;
+}
+
+.e-communications {
+  padding: 50px 15px 30px;
+}
+
+.signup-btn {
+  width: 30%;
+}
+
+.prompt {
+  padding: 30px;
+  font-size: 20px;
+}
+
+.forgot-password-btn {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 30%;
+}
+
+.end-section {
+  background-color: #212529;
+  color: #fff;
+  padding: 20px 0;
+}
+
+#footer {
+  padding: 5px 30px;
+  background-color: #e6e6e6;
+}
+
+.footer-brand {
+  padding-top: 5px;
+  text-align: right;
+}
+
+.footer-item {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.footer-item a {
+  color: #212529;
+}
+
+.footer-item a:hover {
+  color: #6c757d;
+}

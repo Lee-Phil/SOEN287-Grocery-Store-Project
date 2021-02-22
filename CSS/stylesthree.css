@@ -1,0 +1,107 @@
+
+@media screen and (max-width:767px){
+.products{
+    font-size:small;
+}
+.people{
+    font-size:xx-small;
+}
+.tracker{
+    display:none;
+}
+input [type="checkbox"]{
+    margin:5px;
+}
+}
+.main{
+    padding: 10px;
+    margin:20px;
+
+}
+.products{
+    text-align: left;
+}
+.buttonPadding{
+    padding: 10px;
+    margin:20px;
+}
+
+.headers{
+    background:black;
+    color: white;
+}
+
+.people{
+    text-align: left;
+}
+
+.editProduct{
+    padding: 10px;
+    margin:20px;
+    border:black ;
+}
+.productInformation{
+    align-content: center;
+}
+.EditAddHeader{
+    text-align: center;
+
+}
+input[type="productName"]{
+    text-align: left;
+
+}
+input[type="checkbox"]{
+    margin:5px;
+}
+input[type="description"]{
+    text-align: left;
+
+}
+input[type="text"]{
+    text-align:left;
+}
+.buttonSubmitPadding{
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+#footer {
+    padding: 5px 30px;
+    background-color: #e6e6e6;
+}
+
+.footer-brand {
+    padding-top: 5px;
+    text-align: right;
+}
+
+.footer-item {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.footer-item a {
+    color: #212529;
+}
+
+.footer-item a:hover {
+    color: #6c757d;
+}
+
+#footer .row {
+    margin: 20px 0 20px 0;
+}
+
+.navbar {
+    padding: 10px 50px;
+}
+
+.container-fluid {
+    padding-left: 0;
+}
+
+.nav-item {
+    padding: 0 20px 0;
+}

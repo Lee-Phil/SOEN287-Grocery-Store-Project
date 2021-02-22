@@ -1,0 +1,120 @@
+
+
+h1.section1 {
+font-family: display;  
+background-color: black;
+color: white;
+text-align: center;
+margin-right: 10px;
+margin-left: 10px;
+border-radius: 40px;
+}
+
+h1.centered{
+    text-align:center;
+}
+
+
+div.footer {background-color: grey;}
+
+
+div.products img{
+    width: auto;
+    height: 150px;
+}
+
+div.centered{
+    width: 95%;
+    margin: auto;
+    display: block;
+}
+
+.header {
+    padding: 10px;
+    text-align: center;
+    font-size: 60px;
+    border: 2px solid red;
+    border-radius: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .button {
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+  .description {
+    position: relative;
+    display: inline-block;
+    background-color: rgb(212, 212, 212);
+    width:100%;
+  }
+  
+  .description {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+    width:100%;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .aisles {
+    padding: 10px;
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+  #footer {
+    padding: 5px 30px;
+    background-color: #e6e6e6;
+  }
+  
+  .footer-brand {
+    padding-top: 5px;
+    text-align: right;
+  }
+  
+  .footer-item {
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  
+  .footer-item a {
+    color: #212529;
+  }
+  
+  .footer-item a:hover {
+    color: #6c757d;
+  }
+  
+  #footer .row {
+    margin: 20px 0 20px 0;
+  }
+  
+.nav-item {
+  padding: 0 20px 0;
+}

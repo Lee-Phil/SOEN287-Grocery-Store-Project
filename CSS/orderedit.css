@@ -1,0 +1,114 @@
+@media (min-width: 1200px){
+    .outer {
+        width: 50%;
+    }
+}
+
+fieldset {
+    border: 2px groove white;
+    border-radius: 20px;
+    padding: 20px 40px;
+    margin: 20px auto;
+}
+
+legend {
+    float: none;
+    width: auto;
+    padding: 0px 10px;
+    font-weight: bolder;
+}
+
+button {
+    float: right;
+}
+
+.material-icons {
+    font-size: 10pt;
+}
+
+.btn {
+    width:  fit-content;
+}
+
+
+table {
+    width: 100%;
+}
+
+tr {
+    border-bottom: 1px solid lightgray;
+}
+
+td, th {
+    padding-top: 9px;
+    padding-bottom: 9px;
+}
+
+tr:nth-last-child(5) {
+    border-bottom: 2px solid black;
+}
+
+tr:last-child {
+    border-bottom: none;
+}
+
+.subtotal {
+    font-size: 11pt;
+}
+
+.total {
+    font-size: 15pt
+}
+
+.tax {
+    color: gray;
+    font-size: 10pt;
+}
+
+.subtotal, .total {
+
+    font-weight: bold;
+}
+
+.subtotal, .tax, .total {
+    padding: 0px;
+}
+
+.navbar {
+  padding: 10px 50px;
+}
+
+.container-fluid {
+  padding-left: 0;
+}
+
+.nav-item {
+  padding: 0 20px 0;
+}
+
+#footer {
+    padding: 5px 30px;
+    background-color: #e6e6e6;
+  }
+  
+  .footer-brand {
+    padding-top: 5px;
+    text-align: right;
+  }
+  
+  .footer-item {
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  
+  .footer-item a {
+    color: #212529;
+  }
+  
+  .footer-item a:hover {
+    color: #6c757d;
+  }
+  
+  #footer .row {
+    margin: 20px 0 20px 0;
+  }
