@@ -1,7 +1,7 @@
-@media (min-width: 1200px){
-    .outer {
-        width: 50%;
-    }
+@media (min-width: 1200px) {
+	.outer {
+		width: 50%;
+	}
 }
 
 fieldset {
@@ -14,49 +14,49 @@ fieldset {
 legend {
 	float: none;
 	width: auto;
-    padding: 0px 10px;
+	padding: 0px 10px;
 	font-weight: bolder;
 }
 
 button {
-    float: right;
+	float: right;
 }
 
 .navbar {
-  padding: 10px 50px;
+	padding: 10px 50px;
 }
 
 .container-fluid {
-  padding-left: 0;
+	padding-left: 0;
 }
 
 .nav-item {
-  padding: 0 20px 0;
+	padding: 0 20px 0;
 }
 
 #footer {
-    padding: 5px 30px;
-    background-color: #e6e6e6;
-  }
-  
-  .footer-brand {
-    padding-top: 5px;
-    text-align: right;
-  }
-  
-  .footer-item {
-    padding-top: 5px;
-    padding-bottom: 5px;
-  }
-  
-  .footer-item a {
-    color: #212529;
-  }
-  
-  .footer-item a:hover {
-    color: #6c757d;
-  }
-  
-  #footer .row {
-    margin: 20px 0 20px 0;
-  }
+	padding: 5px 30px;
+	background-color: #e6e6e6;
+}
+
+.footer-brand {
+	padding-top: 5px;
+	text-align: right;
+}
+
+.footer-item {
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.footer-item a {
+	color: #212529;
+}
+
+.footer-item a:hover {
+	color: #6c757d;
+}
+
+#footer .row {
+	margin: 20px 0 20px 0;
+}
