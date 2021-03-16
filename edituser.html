@@ -49,6 +49,15 @@
 					<li class="nav-item">
 						<a class="nav-link" href="cart.html">Cart</a>
 					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="ProductList.html">All Products</a>
+					  </li>
+					  <li class="nav-item">
+						  <a class="nav-link" href="Users.html">All Users</a>
+					  </li>
+					  <li class="nav-item">
+						  <a class="nav-link" href="orderlist.html">Orders</a>
+					  </li>
 				</ul>
 			</div>
 		</nav>
@@ -61,18 +70,18 @@
 					<fieldset>
 						<legend>Login Information</legend>
 						<label>Email: </label>
-						<input type="text" class="form-control" placeholder="guy@williams.com" />
+						<input id="email" type="text" class="form-control" placeholder="guy@williams.com" />
 						<label>Password: </label>
-						<input type="password" class="form-control" placeholder="*******" />
+						<input id="password" type="password" class="form-control" placeholder="*******" />
 					</fieldset>
 				</div>
 				<div class="col">
 					<fieldset>
 						<legend>Personal Information</legend>
 						<label>First name: </label>
-						<input type="text" class="form-control" placeholder="Guy" />
+						<input id="firstname" type="text" class="form-control" placeholder="Guy" />
 						<label>Last name: </label>
-						<input type="text" class="form-control" placeholder="Williams" />
+						<input id="lastname" type="text" class="form-control" placeholder="Williams" />
 					</fieldset>
 				</div>
 			</div>
@@ -82,11 +91,11 @@
 				<div class="row">
 					<div class="col-md-8 col-lg-6">
 						<label>Card Number: </label>
-						<input type="text" class="form-control" placeholder="1234 5678 9876 5432" />
+						<input id="cardnumber" type="text" class="form-control" placeholder="1234 5678 9876 5432" />
 					</div>
 					<div class="col-lg-2 col-md-auto">
 						<label>CVV: </label>
-						<input type="text" class="form-control" placeholder="123" />
+						<input id="cvv" type="text" class="form-control" placeholder="123" />
 					</div>
 					<div class="col-auto">
 						<label>Expiration Date: </label>
@@ -106,7 +115,7 @@
 								<option value="12">12 (Dec)</option>
 							</select>
 							<div class="input-group-text">/</div>
-							<input class="year form-control" type="text" placeholder="22" />
+							<input id="year" class="year form-control" type="text" placeholder="22" />
 						</div>
 					</div>
 				</div>
@@ -117,27 +126,27 @@
 				<div class="row">
 					<div class="col">
 						<label>Address: </label>
-						<input type="text" class="form-control" placeholder="12 Placeholder Rd." />
+						<input id="address" type="text" class="form-control" placeholder="12 Placeholder Rd." />
 					</div>
 					<div class="row">
 						<div class="col">
 							<label>City: </label>
-							<input type="text" class="form-control" placeholder="Montreal" />
+							<input id="city" type="text" class="form-control" placeholder="Montreal" />
 						</div>
 
 						<div class="col">
 							<label>Province: </label>
-							<input type="text" class="form-control" placeholder="Quebec" />
+							<input id="province" type="text" class="form-control" placeholder="Quebec" />
 						</div>
 						<div class="col">
 							<label>Postal Code: </label>
-							<input type="text" class="form-control" placeholder="A1B 2C3" />
+							<input id="postalcode" type="text" class="form-control" placeholder="A1B 2C3" />
 						</div>
 					</div>
 				</div>
 			</fieldset>
 
-			<button class="btn btn-dark" type="submit">Save</button>
+			<button id="save" class="btn btn-dark" type="submit">Save</button>
 		</fieldset>
 	</form>
 
@@ -150,8 +159,8 @@
 				<a href="#">Online Store</a>
 			</div>
 			<div class="col-auto footer-item">
-				<a href="#">Contact Us</a>
-			</div>
+				<a href="ContactUs.html">Contact Us</a>
+			  </div>
 			<div class="col-auto footer-item">
 				<a href="#">FAQ</a>
 			</div>
@@ -166,6 +175,8 @@
 			<div class="col footer-brand">OnlineGroceryStore®</div>
 		</div>
 	</div>
+
+	<script src="Javascript/edituser.js"></script>
 </body>
 
 </html>

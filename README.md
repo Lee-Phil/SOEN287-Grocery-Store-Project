@@ -1,7 +1,7 @@
 # SOEN 287 Grocery Store Project
 Online Grocery Store Website
-This a website for an online grocery store. The website is written using HTML and styled
-using CSS and Bootstrap and all the web pages are static. It is hosted on github.
+This a website for an online grocery store. It is written in HTML, CSS, Bootstrap and
+Javascript. The web pages are dynamic and it is hosted on github https://lee-phil.github.io/index.html .
 
 ## Team:
 

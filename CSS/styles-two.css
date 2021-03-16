@@ -1,0 +1,146 @@
+h1 {
+    padding-top: 40px;
+    padding-left: 10%;
+}
+
+.heading {
+    padding-left: 7%;
+}
+
+.navbar {
+    padding: 10px 50px;
+}
+
+.container-fluid {
+  padding-left: 0;
+}
+
+.input-box {
+    outline-width: 0;
+    border: 1.7px solid;
+    border-style: none none solid;
+    border-color: #dddddd;
+    margin: 20px 0 50px;
+    width: 30%;
+    margin: 5px;
+    text-align: center;
+}
+
+.subtotal-box {
+    outline-width: 0;
+    border: 1.7px solid;
+    border-style: none none solid;
+    border-color: #dddddd;
+    margin: 20px 0 50px;
+    width: 50%;
+    margin: 5px;
+    text-align: center;
+    padding: 1%;
+}
+
+.btns {
+    margin: 50px 30px 0 0;
+    width: 95%;
+}
+
+.lead {
+    padding-bottom: 20px;
+}
+
+.card {
+    margin-bottom: 60px;
+}
+
+.card-img-top {
+    height: 238.500px;
+    width: 334.5px;
+}
+
+.nav-item {
+  padding: 0 20px 0;
+}
+
+.padding {
+    padding: 50px 7%;
+}
+
+#description {
+    padding: 3% 7%;
+}
+
+.img-fluid {
+    padding: 0 5% 2% 0;
+    height: auto;
+    width: auto;
+}
+
+.form-select, .qty {
+    width: 93%; 
+}
+
+#main-section {
+    padding: 4%;
+}
+
+.qty-btn {
+    width: 45px;
+    height: 41px;
+    font-size: 1.3em;
+    padding: 2%;
+}
+
+.qty {
+    width: 50px;
+    padding: 7px;
+    margin: 0 20px;
+}
+
+#qty {
+    margin-top: 20px;
+}
+
+#displayTotal {
+    margin-top: 50px;
+}
+
+#footer {
+    padding: 20px 50px;
+    background-color: #e6e6e6;
+}
+
+.footer-brand {
+    padding-top: 5px;
+    text-align: right;
+}
+
+.footer-item {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.footer-item a {
+    text-decoration: none;
+    color: #212529;
+}
+
+.footer-item a:hover {
+    color: #6c757d;
+}
+
+#red {
+    margin-top:10px;
+    color: red;
+    font-size: 15px;
+}
+
+
+.changeBorder {
+    border-color: red;
+}
+
+.descr-btn {
+
+    margin-bottom: 20px;
+    width: 90%;
+  
+  }

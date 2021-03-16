@@ -50,6 +50,15 @@
 					<li class="nav-item">
 						<a class="nav-link" href="cart.html">Cart</a>
 					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="ProductList.html">All Products</a>
+					  </li>
+					  <li class="nav-item">
+						  <a class="nav-link" href="Users.html">All Users</a>
+					  </li>
+					  <li class="nav-item">
+						  <a class="nav-link" href="orderlist.html">Orders</a>
+					  </li>
 				</ul>
 			</div>
 		</nav>
@@ -61,59 +70,22 @@
 		</div>
 
 		<div class="row">
-			<table>
+			<table id="order-table">
 				<tr>
 					<th>Order Date</th>
 					<th>Order Summary</th>
 					<th>Order Total</th>
 					<th class="buttons">Functions</th>
 				</tr>
-				<tr>
-					<td>February 21st, 2021</td>
+				<tr id="test-order">
+					<td id="date">February 21st, 2021</td>
 					<td>
-						<ul class="list-group">
-							<li class="list-group-item">2 x Banana</li>
-							<li class="list-group-item">1 x Milk</li>
-							<li class="list-group-item">1 x Cheerios</li>
+						<ul id="summary" class="list-group">
 						</ul>
 					</td>
-					<td class="total">$14.91</td>
+					<td id="total" class="total">$14.91</td>
 					<td class="buttons">
-						<button class="delete">
-							<span class="material-icons"> delete_outline </span></button><a
-							href="editorder.html"><button class="edit">
-								<span class="material-icons"> create </span>
-							</button></a>
-					</td>
-				</tr>
-				<tr>
-					<td>February 14st, 2021</td>
-					<td>
-						<ul class="list-group">
-							<li class="list-group-item">1 x Cheese</li>
-							<li class="list-group-item">1 x Lettuce</li>
-						</ul>
-					</td>
-					<td class="total">$5.36</td>
-					<td class="buttons">
-						<button class="delete">
-							<span class="material-icons"> delete_outline </span></button><a
-							href="editorder.html"><button class="edit">
-								<span class="material-icons"> create </span>
-							</button></a>
-					</td>
-				</tr>
-				<tr>
-					<td>January 11st, 2021</td>
-					<td>
-						<ul class="list-group">
-							<li class="list-group-item">2 x Eggs</li>
-							<li class="list-group-item">1 x Bagels</li>
-						</ul>
-					</td>
-					<td class="total">$11.19</td>
-					<td class="buttons">
-						<button class="delete">
+						<button id="delete" class="delete">
 							<span class="material-icons"> delete_outline </span></button><a
 							href="editorder.html"><button class="edit">
 								<span class="material-icons"> create </span>
@@ -136,8 +108,8 @@
 				<a href="#">Online Store</a>
 			</div>
 			<div class="col-auto footer-item">
-				<a href="#">Contact Us</a>
-			</div>
+				<a href="ContactUs.html">Contact Us</a>
+			  </div>
 			<div class="col-auto footer-item">
 				<a href="#">FAQ</a>
 			</div>
@@ -152,6 +124,8 @@
 			<div class="col footer-brand">OnlineGroceryStore®</div>
 		</div>
 	</div>
+
+	<script src="Javascript/orderlist.js"></script>
 </body>
 
 </html>

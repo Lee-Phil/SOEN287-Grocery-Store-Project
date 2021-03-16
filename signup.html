@@ -3,7 +3,10 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Sign Up</title>
+  <title>Signup</title>
+
+  <!-- Bootstrap & CSS Links -->
+  <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -11,12 +14,12 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="CSS/styles.css">
-
+  <link rel="stylesheet" href="CSS/styles-one.css">
 </head>
 
 <body>
 
+  <!-- header - Navbar -->
   <div id="header">
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <a class="navbar-brand" href="index.html">Online Grocery Store</a>
@@ -42,176 +45,172 @@
             <a class="nav-link" href="login.html">Login</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" href="signup.html">Sign up</a>
+            <a class="nav-link" href="signup.html">Sign up</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="cart.html">Cart</a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link" href="ProductList.html">All Products</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="Users.html">All Users</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="orderlist.html">Orders</a>
+        </li>
         </ul>
       </div>
     </nav>
   </div>
 
-  <div class="main-section">
-    <div class="title-and-link margin">
-      <h1>Sign Up</h1>
-      <div class="link">
-        Already have an account? <a href="login.html">Log In</a>
+  <h1 class="padding">Sign Up</h1>
+
+  <div id="sign-up" class="col-lg-12 col-md-12 col-sm-12 padding">
+
+    <form class="" action="index.html" method="post" name="myForm">
+
+      <div class="row">
+
+        <div class="col-lg-6 col-md-6 col-sm-12" id="firstName">
+          <label for="first-name">FIRST NAME</label><br>
+          <input type="text" id="first-name" value="" class="wide input" placeholder="Your first name" name="firstName">
+        </div>
+
+        <div class="col-lg-6 col-md-6 col-sm-12" id="lastName">
+          <label for="first-name">LAST NAME</label><br>
+          <input type="text" id="last-name" value="" class="wide input" placeholder="Your last name" name="lastName">
+        </div>
+      </div>
+
+      <div class="personal-information">
+
+        <div id="emailFirst">
+        <label for="email">EMAIL</label><br>
+        <input type="email" id="email" value="" name="email" class="wide input" placeholder="Your email address">
+        </div>
+
+        <div id="emailSecond">
+        <label for="confirm-email">CONFIRM EMAIL</label><br>
+        <input type="email" id="confirm-email" value="" name="confirmEmail" class="wide input" placeholder="Confirm email address">
+        </div>
+
+        <div id="passwordOne">
+          <label for="password">PASSWORD (must contain atleast 8 characters)</label>
+          <input type="password" name="password" value="" id="password" class="wide input" placeholder="Password">
+        </div>
+        <div id="passwordTwo">
+          <label for="confirm-password">CONFIRM PASSWORD</label>
+          <input type="password" name="verifyPassword" value="" id="verifyPassword" class="wide input" placeholder="Confirm password">
+        </div>
+        <label for="address">ADDRESS</label>
+        <input type="text" name="" value="" class="wide input" placeholder="Your address">
+      
+        <label for="postal-code">POSTAL CODE</label>
+        <input type="text" name="" value="" class="wide input" placeholder="Postal code">
+      </div>
+
+
+      <br>
+  </div>
+
+  <div class="membership-section padding">
+
+
+    <div class="row">
+      <div class="col-lg-6 col-md-6 col-sm-12">
+        DO YOU HAVE A MEMBERSHIP CARD?
+
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="flexRadioDefault" checked>
+          <label class="form-check-label" for="flexRadioDefault1">
+            Yes, I already have a card
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="flexRadioDefault">
+          <label class="form-check-label" for="flexRadioDefault2">
+            No, I want a membership card
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="flexRadioDefault">
+          <label class="form-check-label" for="flexRadioDefault2">
+            I don't want a membership card
+          </label>
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-6 col-sm-12">
+        <label for="member-card">ENTER CARD NUMBER</label><br>
+        <input type="text" name="" value="" class="wide input" placeholder="Card number">
       </div>
     </div>
 
-    <form action="index.html" method="post">
+  </div>
 
-      <div class="personal-information margin">
-        <form>
-          <fieldset>
-            <legend class="key">Personal Information</legend>
-            <div class="required">*Required Field</div>
-            <div class="row">
-              <div class="col col-lg-3">
-                <label for="first-name">*First Name</label><br>
-              </div>
-              <div class="col col-lg-9">
-                <input type="text" name="first-name" class="data"><br>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col col-lg-3">
-                <label for="last-name">*Last Name</label><br>
-              </div>
-              <div class="col col-lg-9">
-                <input type="text" name="last-name" class="data"><br>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col col-lg-3">
-                <label for="email">*Email</label><br>
-              </div>
-              <div class="col col-lg-9">
-                <input type="email" name="email" class="data"><br>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col col-lg-3">
-                <label for="email">*Confirm Email</label><br>
-              </div>
-              <div class="col col-lg-9">
-                <input type="email" name="confirm-email" class="data"><br>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col col-lg-3">
-                <label for="password">*Password <br><span class="warning">(Must contain atleast 8 characters)</span></label><br>
-              </div>
-              <div class="col col-lg-9">
-                <input type="password" name="password" class="data"><br>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col col-lg-3">
-                <label for="password">*Confirm Password</label><br>
-              </div>
-              <div class="col col-lg-9">
-                <input type="password" name="confirm-password" class="data"><br>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col col-lg-3">
-                <label for="address">*Address</label><br>
-              </div>
-              <div class="col col-lg-9">
-                <input type="text" name="address" class="data"><br>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col col-lg-3">
-                <label for="postal-code">*Postal Code</label><br>
-              </div>
-              <div class="col col-lg-9">
-                <input type="text" name="postal-code" class="data"><br>
-              </div>
-            </div>
-          </fieldset>
-          <br>
+
+  <div class="payment-info padding">
+    <h4>PAYMENT INFORMATION</h4><br>
+
+    <div class="row">
+      <div class="col-lg-6 col-md-6 col-sm-12">
+        <label for="name-on-card">NAME ON CARD</label><br>
+        <input type="text" name="" value="" class="wide input" placeholder="">
       </div>
-      <div class="membership">
-        <div class="row">
-          <div class="col">
-            <fieldset class="margin">
-              <legend>Do you have a membership card?</legend><br><br>
-              <input type="radio" name="option-one">
-              <label>Yes, I already have a card</label><br>
-              <input type="radio" name="option-one">
-              <label>No, I want a membership card</label><br>
-              <input type="radio" name="option-one">
-              <label>I don't want a membership card</label>
-            </fieldset>
-          </div>
-          <div class="col margin">
-            Enter Card Number:<br><br>
-            <input class="card-num" type="text" name="card-num">
-          </div>
-        </div>
+      <div class="col-lg-6 col-md-6 col-sm-12">
+        <label for="card-number">CARD NUMBER</label><br>
+        <input type="text" name="" value="" class="wide input" placeholder="">
       </div>
-
-      <div class="payment">
-        <fieldset class="margin">
-          <legend>Payment Details</legend><br><br>
-          <div class="row">
-            <div class="col col-lg-3">
-              <label for="name-on-card">Name on card</label><br>
-            </div>
-            <div class="col col-lg-9">
-              <input type="text" name="card-number" class="data"><br>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col col-lg-3">
-              <label for="card-number">Card number</label><br>
-            </div>
-            <div class="col col-lg-9">
-              <input type="text" name="card-number" class="data"><br>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col col-lg-3">
-              <label for="valid">Expiry date</label><br>
-            </div>
-            <div class="col col-lg-9">
-              <input type="text" name="" class="data"><br>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col col-lg-3">
-              <label for="cvv">CVV</label><br>
-            </div>
-            <div class="col col-lg-9">
-              <input type="password" name="cvv" class="data"><br>
-            </div>
-          </div>
-
-        </fieldset>
+    </div>
+    <div class="row">
+      <div class="col-lg-6 col-md-6 col-sm-12">
+        <label for="expiration-date">EXPIRATION DATE</label><br>
+        <input type="text" name="" value="" class="input" placeholder="MM / YY">
       </div>
-
-      <div class="end-section">
-        <div class="e-communications margin">
-          <input type="checkbox" name="updates">
-          <label for="updates">I would like to receive updates and offers.</label><br>
-          <input type="checkbox" name="newsletter">
-          <label for="newsletter">Subcribe me to the newsletter.</label><br>
-          <input type="checkbox" name="terms">
-          <label for="terms">I agree to all the <a href="#">Terms and Conditions</a>.</label>
-        </div>
-
-        <div id="signup" class="margin">
-          <button type="button" class="btn btn-light signup-btn">Submit</button>
-        </div>
+      <div class="col-lg-6 col-md-6 col-sm-12">
+        <label for="cvv">CVV</label><br>
+        <input type="text" name="" value="" class="input" placeholder="">
       </div>
+    </div>
+  </div>
+
+
+
+  <div class="terms-and-conditions padding">
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" value="">
+      <label class="form-check-label" for="flexCheckDefault">
+        Sign me up for the newsletter.
+      </label>
+    </div>
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" value="">
+      <label class="form-check-label" for="flexCheckChecked">
+        I would like to recieve updates and offers.
+      </label>
+    </div>
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" value="">
+      <label class="form-check-label" for="flexCheckChecked">
+        I have read and agree to all the <a href="#">Terms and Conditions</a>.
+      </label>
+    </div>
+  </div>
+
+
+  <div class="row button-section padding">
+
+    <div class="col-lg-6 col-md-6 col-sm-12">
+      <button type="reset" class="btn btn-outline-danger wide">Reset</button>
+    </div>
+    <div class="col-lg-6 col-md-6 col-sm-12">
+      <a  onclick="validateInput()"><button type="button" class="btn btn-dark">Submit</button></a>
+    </div>
 
   </div>
+
   </form>
 
-  </div>
   <div id="footer">
     <div class="row">
       <div class="col-auto footer-item">
@@ -220,9 +219,8 @@
       <div class="col-auto footer-item">
         <a href="#">Online Store</a>
       </div>
-
       <div class="col-auto footer-item">
-        <a href="#">Contact Us</a>
+        <a href="ContactUs.html">Contact Us</a>
       </div>
       <div class="col-auto footer-item">
         <a href="#">FAQ</a>
@@ -239,6 +237,10 @@
       </div>
     </div>
   </div>
+
+  <script type="text/javascript" src="Javascript/signup.js">
+
+</script>
 
 </body>
 

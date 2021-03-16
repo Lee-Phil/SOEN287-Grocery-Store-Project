@@ -1,0 +1,147 @@
+.red {
+  border-radius: 1.5px;
+  border-width: 1.7px;
+  outline: 1.5px solid red;
+}
+
+#warning, #passwordIncorrect, #warningOne, #warningTwo, #passwordFirst, #passwordSecond, #to-be-removed, #to-be-removed-email {
+  font-size: 13px;
+  color: red;
+}
+
+h1 {
+  margin: 50px 0 30px;
+}
+
+.navbar {
+  padding: 10px 50px;
+}
+
+.container-fluid {
+  padding-left: 0;
+}
+
+.nav-item {
+  padding: 0 20px 0;
+}
+
+.required {
+  padding-bottom: 20px;
+}
+
+#login, #forgotPassword {
+  text-align: center;
+  padding: 0 30%;
+}
+
+.login-btn {
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+.forgot {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.middle {
+  text-align: left;
+}
+
+.signup-link {
+  text-align: center;
+  padding: 30px;
+}
+
+.wide {
+  width: 100%;
+}
+
+.input {
+  margin: 10px 0 20px;
+  padding: 7px;
+}
+
+.form-check {
+  margin: 20px 0;
+}
+
+.button-section {
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.btn {
+  margin-top: 10px;
+  width: 100%;
+  padding: 7px;
+}
+
+.payment-info {
+  margin: 10px 0;
+}
+
+.padding {
+  padding: 0 20% 20px;
+}
+
+#forgot-password {
+  text-align: center;
+  padding: 20px;
+}
+
+.forgot-password-input {
+  margin: 30px 0 20px;
+  padding: 7px;
+  width: 30%;
+}
+
+.forgot-password-btn {
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+#footer {
+  padding: 20px 50px;
+  background-color: #e6e6e6;
+}
+
+.footer-brand {
+  padding-top: 5px;
+  text-align: right;
+}
+
+.footer-item {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.footer-item a {
+  text-decoration: none;
+  color: #212529;
+}
+
+.footer-item a:hover {
+  color: #6c757d;
+}
+
+.left {
+  text-align: left;
+}
+
+.center {
+  text-align: center;
+}
+
+.middle {
+  margin: 10px 0 60px;
+}
+
+.btn-submit {
+  margin-top: 30px;
+}
+
+.new-password {
+  padding-top: 20px;
+}
+

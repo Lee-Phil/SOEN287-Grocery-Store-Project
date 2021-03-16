@@ -11,6 +11,10 @@ fieldset {
 	margin: 20px auto;
 }
 
+#test-item {
+	display: none;
+}
+
 legend {
 	float: none;
 	width: auto;
@@ -44,15 +48,12 @@ th {
 	padding-bottom: 9px;
 }
 
-tr:nth-last-child(5) {
-	border-bottom: 2px solid black;
-}
-
 tr:last-child {
 	border-bottom: none;
 }
 
 .subtotal {
+	border-top: 2px solid black;
 	font-size: 11pt;
 }
 

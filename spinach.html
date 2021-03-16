@@ -1,20 +1,23 @@
 <!DOCTYPE html>
-<html lang = "en">
+<html lang="en" dir="ltr">
+
 <head>
-    <title>Spinach</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
-    <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
-    <link rel = "stylesheet" href="CSS/Grocery.css">
+  <meta charset="utf-8">
+  <title>Spinach</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <link rel="stylesheet" href="CSS/styles-two.css">
 </head>
 
 <body>
+
+  <!-- Navbar -->
   <div id="header">
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <a class="navbar-brand" href="index.html">Online Grocery Store</a>
@@ -36,7 +39,7 @@
               <a class="dropdown-item" href="snacks.html">Snacks</a>
             </div>
           </li>
-          <li class="nav-item">
+          <li class="nav-item active">
             <a class="nav-link" href="login.html">Login</a>
           </li>
           <li class="nav-item">
@@ -45,76 +48,103 @@
           <li class="nav-item">
             <a class="nav-link" href="cart.html">Cart</a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link" href="ProductList.html">All Products</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="Users.html">All Users</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="orderlist.html">Orders</a>
+        </li>
         </ul>
       </div>
     </nav>
   </div>
-<div id="page-container">
-  <div id="content-wrap">
-    <div>
-      <br><br><br>
+
+  <div id="description" class="row">
+    <div class="col-lg-6">
+            <h5 > <a class="btn btn-outline-dark" href = "vegetables.html"> &lt;  Back to Vegetables</a> </br></h5>
+      <img src="images/spinach.jpg" alt="Spinach" class="img-fluid">
     </div>
-    <h5> <a href = "vegetables.html"> &lt;  Back to Vegetables</a> </br></h5>
-
-    <div class = "centered">
-        <img src = "Images/spinach.jpg" alt = "spinach" style= "height:250px;width:300px;" class="img-fluid">
-    </div>
-
-    <div>
-        Spinach <br>
-        <strong>$1.99 per pack</strong> <br>
-        $0.99/ lb
-        <form action="">
-            <label for="Quantity">Quantity:</label> 
-            <input type="number" id="Quantity" value="0" >
-            </form>
-            <form action="">
-                <label for="Weight">Weight:</label> 
-                <input type="number" id="Weight" value="0" >
-                </form>
-            <form action="">
-                <label for="Type">Type:</label>
-                <select name="type" id="spinach-type">
-                  <option value="pack">Pack</option>
-                  <option value="individual">Per pound</option>
-                </select>
-                </form>
-        
-                <br><button class= "button">Add to cart</button>
-                <br><button class= "button">More Description</button>
-            </div>
-
-    <div>
-      <br>
-    </div>
-
-    <div id="footer">
+    <div class="col-lg-6 ">
       <div class="row">
-        <div class="col-auto footer-item">
-          <a href="#">About Us</a>
+        <div class="col">
+          <h2 style="padding: 0 0 20px">Spinach</h2>
         </div>
-        <div class="col-auto footer-item">
-          <a href="#">Online Store</a>
+        <div class="col">
+          <button type="button" class="btn btn-dark descr-btn" onclick="moreDescriptionSpinach()">More description</button>
+
         </div>
-        <div class="col-auto footer-item">
-          <a href="#">Contact Us</a>
+        <p id="more-description-spinach"></p>
+      </div>   
+
+
+      <form action="" name="myForm">
+        <select class="form-select" id="size"  onclick="displayTotal()" name="options">
+          <option selected id="option0" value="0">Please select a weight </option>
+          <option id="option1" value="2.66">Spinach (0.5 kg)</option>
+          <option id="option2" value="5.32">Spinach (1 kg)</option>
+          <option id="option3" value="10.62">Spinach (2 kg)</option>
+        </select>
+        
+        <div class="row">
+        <div id="qty" class="col-lg-5 col-md-5">
+          <button type="button" value="decrease" class="btn btn-outline-dark qty-btn" onclick="doThis(this)">-</button>
+          <input type="text" id="qty" value="0" class="qty input-box" name="quantity" readonly>
+          <button type="button" value="increase" class="btn btn-outline-dark qty-btn" onclick="doThis(this)">+</button>
         </div>
-        <div class="col-auto footer-item">
-          <a href="#">FAQ</a>
-        </div>
-        <div class="col-auto footer-item">
-          <a href="#">Privacy Policy</a>
-        </div>
-        <div class="col-auto footer-item">
-          <a href="#">Message</a>
-        </div>
-        <hr style="height: 0.6px; margin-top: 20px;"><br>
-        <div class="col footer-brand">
-          OnlineGroceryStore®
+
+        <div id="displayTotal" class="col-lg-7 col-md-7">
+            Subtotal ($):
+            <input type="text" name="subtotal" class="subtotal-box" id="" readonly>
         </div>
       </div>
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-sm-12">
+            <button type="reset" class="btn btn-outline-danger btns">Remove</button>
+
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-12" id="addToCart">
+            <button type="button" class="btn btn-dark btns" onclick="validateItem()">Add to cart</button>
+
+          </div>
+        </div>
+
+      </form> 
+   
     </div>
-  
-  </body>
-  
-  </html>
+  </div>
+
+  <div id="footer">
+    <div class="row">
+      <div class="col-auto footer-item">
+        <a href="#">About Us</a>
+      </div>
+      <div class="col-auto footer-item">
+        <a href="#">Online Store</a>
+      </div>
+      <div class="col-auto footer-item">
+        <a href="ContactUs.html">Contact Us</a>
+      </div>
+      <div class="col-auto footer-item">
+        <a href="#">FAQ</a>
+      </div>
+      <div class="col-auto footer-item">
+        <a href="#">Privacy Policy</a>
+      </div>
+      <div class="col-auto footer-item">
+        <a href="#">Message</a>
+      </div>
+      <hr style="height: 0.6px; margin-top: 20px;"><br>
+      <div class="col footer-brand">
+        OnlineGroceryStore®
+      </div>
+    </div>
+  </div>
+
+  <script type="text/javascript" src="Javascript/productDescription.js"></script>
+
+</body>
+
+</html>

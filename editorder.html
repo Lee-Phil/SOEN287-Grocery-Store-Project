@@ -17,6 +17,7 @@
 </head>
 
 <body>
+
 	<div id="header">
 		<nav class="navbar navbar-expand-lg navbar-light bg-light">
 			<a class="navbar-brand" href="index.html">Online Grocery Store</a>
@@ -50,6 +51,15 @@
 					<li class="nav-item">
 						<a class="nav-link" href="cart.html">Cart</a>
 					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="ProductList.html">All Products</a>
+					  </li>
+					  <li class="nav-item">
+						  <a class="nav-link" href="Users.html">All Users</a>
+					  </li>
+					  <li class="nav-item">
+						  <a class="nav-link" href="orderlist.html">Orders</a>
+					  </li>
 				</ul>
 			</div>
 		</nav>
@@ -62,48 +72,16 @@
 					<fieldset>
 						<legend>Order Items</legend>
 						<ul class="list-group">
-							<li class="list-group-item">
+							<li id="test-item" class="list-group-item">
 								<div class="row">
-									<div class="col">Banana</div>
+									<div id ="item-name" class="col">Banana</div>
 									<div class="col-lg-4 col-md-12 buttons">
 										<div class="input-group input-group-sm">
-											<input class="form-control" type="text" value="2" disabled />
-											<div class="btn btn-outline-dark">
+											<input id="item-input" class="form-control" type="text" value="2" disabled />
+											<div id="item-edit" class="btn btn-outline-dark">
 												<span class="material-icons">create</span>
 											</div>
-											<div class="btn btn-outline-dark">
-												<span class="material-icons">delete</span>
-											</div>
-										</div>
-									</div>
-								</div>
-							</li>
-							<li class="list-group-item">
-								<div class="row">
-									<div class="col">Milk</div>
-									<div class="col-lg-4 col-md-12 buttons">
-										<div class="input-group input-group-sm">
-											<input class="form-control" type="text" value="1" disabled />
-											<div class="btn btn-outline-dark">
-												<span class="material-icons">create</span>
-											</div>
-											<div class="btn btn-outline-dark">
-												<span class="material-icons">delete</span>
-											</div>
-										</div>
-									</div>
-								</div>
-							</li>
-							<li class="list-group-item">
-								<div class="row">
-									<div class="col">Cheerios</div>
-									<div class="col-lg-4 col-md-12 buttons">
-										<div class="input-group input-group-sm">
-											<input class="form-control" type="text" value="1" disabled />
-											<div class="btn btn-outline-dark">
-												<span class="material-icons">create</span>
-											</div>
-											<div class="btn btn-outline-dark">
+											<div id="item-delete" class="btn btn-outline-dark">
 												<span class="material-icons">delete</span>
 											</div>
 										</div>
@@ -118,46 +96,33 @@
 			<fieldset>
 				<legend>Order Summary</legend>
 				<div class="row">
-					<table>
+					<table id="price-table">
 						<tr>
 							<th>Item</th>
 							<th>Quantity</th>
 							<th>Price($)</th>
 						</tr>
-						<tr>
-							<td>Banana</td>
-							<td>2</td>
-							<td>5.99</td>
-						</tr>
-						<tr>
-							<td>Milk</td>
-							<td>1</td>
-							<td>3.99</td>
-						</tr>
-						<tr>
-							<td>Cheerios</td>
-							<td>1</td>
-							<td>2.99</td>
-						</tr>
+						<tbody id="price-items">
+						</tbody>
 						<tr>
 							<td class="subtotal">Subtotal</td>
-							<td></td>
-							<td class="subtotal">12.97</td>
+							<td class="subtotal"></td>
+							<td id="subtotal" class="subtotal">12.97</td>
 						</tr>
 						<tr>
 							<td class="tax">QST</td>
 							<td></td>
-							<td class="tax">1.29</td>
+							<td id="qst" class="tax">1.29</td>
 						</tr>
 						<tr>
 							<td class="tax">GST</td>
 							<td></td>
-							<td class="tax">0.65</td>
+							<td id="gst" class="tax">0.65</td>
 						</tr>
 						<tr>
 							<td class="total">Total</td>
-							<td></td>
-							<td class="total">14.91</td>
+							<td class="total"></td>
+							<td id="total" class="total">14.91</td>
 						</tr>
 					</table>
 				</div>
@@ -175,27 +140,31 @@
 				<div class="row">
 					<div class="col">
 						<label>Address: </label>
-						<input type="text" class="form-control" value="12 placeholder rd" />
+						<input id="address" type="text" class="form-control" value="12 placeholder rd" />
+						<div class="invalid-feedback">Please input a valid address.</div>
 					</div>
 					<div class="row">
 						<div class="col">
 							<label>City: </label>
-							<input type="text" class="form-control" value="Montreal" />
+							<input id="city" type="text" class="form-control" value="Montreal" />
+							<div class="invalid-feedback">Invalid City.</div>
 						</div>
 
 						<div class="col">
 							<label>Province: </label>
-							<input type="text" class="form-control" value="Quebec" />
+							<input id="province" type="text" class="form-control" value="Quebec" />
+							<div class="invalid-feedback">Invalid Province.</div>
 						</div>
 						<div class="col">
 							<label>Postal Code: </label>
-							<input type="text" class="form-control" value="A1B 2C3" />
+							<input id="postalcode" type="text" class="form-control" value="A1B 2C3" />
+							<div class="invalid-feedback">Invalid Postal Code.</div>
 						</div>
 					</div>
 				</div>
 			</fieldset>
 
-			<button class="btn btn-dark" type="submit">Save</button>
+			<button id="save" class="btn btn-dark" type="submit">Save</button>
 		</fieldset>
 	</form>
 
@@ -208,8 +177,8 @@
 				<a href="#">Online Store</a>
 			</div>
 			<div class="col-auto footer-item">
-				<a href="#">Contact Us</a>
-			</div>
+				<a href="ContactUs.html">Contact Us</a>
+			  </div>
 			<div class="col-auto footer-item">
 				<a href="#">FAQ</a>
 			</div>
@@ -224,6 +193,7 @@
 			<div class="col footer-brand">OnlineGroceryStore®</div>
 		</div>
 	</div>
+	<script src="Javascript/editorder.js"></script>
 </body>
 
 </html>
