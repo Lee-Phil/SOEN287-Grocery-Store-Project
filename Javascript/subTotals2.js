@@ -1,47 +1,47 @@
-function calculateYogurtSubtotal(){
-    yogurt.subTotal.value = (yogurt.Quantity.value *1.99).toFixed(2);
+function calculateYogurtsubtotal(){
+    yogurt.subtotal.value = (yogurt.quantity.value *1.99).toFixed(2);
 }
-function checkYogurtQuantity(){
-    if(yogurt.Quantity.value == 0){
-        alert("Quantity cannot be zero");
+function checkYogurtquantity(){
+    if(yogurt.quantity.value == 0){
+        alert("quantity cannot be zero");
     }
     else{
         alert("This item has been added to the cart");
     }
 }
 
-function calculateEggsSubtotal(){
-    eggs.subTotal.value = (eggs.Quantity.value * 2.99).toFixed(2);
+function calculateEggssubtotal(){
+    eggs.subtotal.value = (eggs.quantity.value * 2.99).toFixed(2);
 }
 
-function checkEggsQuantity(){
-    if(eggs.Quantity.value == 0){
-        alert("Quantity cannot be zero");
+function checkEggsquantity(){
+    if(eggs.quantity.value == 0){
+        alert("quantity cannot be zero");
     }
     else{
         alert("This item has been added to the cart");
     }
 }
 
-function calculateCheeseSubtotal(){
-    cheesey.subTotal.value = (cheesey.Quantity.value * 1.99).toFixed(2);
+function calculateCheesesubtotal(){
+    cheesey.subtotal.value = (cheesey.quantity.value * 1.99).toFixed(2);
 }
 
-function checkCheeseQuantity(){
-    if(cheesey.Quantity.value == 0){
-        alert("Quantity cannot be zero");
+function checkCheesequantity(){
+    if(cheesey.quantity.value == 0){
+        alert("quantity cannot be zero");
     }
     else{
         alert("This item has been added to the cart");
     }
 }
-function calculateBeefSubtotal(){
-    beef.subTotal.value = (beef.Quantity.value * 2.99).toFixed(2);
+function calculateBeefsubtotal(){
+    myForm.subtotal.value = (beef.quantity.value * 2.99).toFixed(2);
 }
 
-function calculateFishSubtotal(){
-    fish.subTotal.value = (fish.Quantity.value * 4.99).toFixed(2);
+function calculateFishsubtotal(){
+    fish.subtotal.value = (fish.quantity.value * 4.99).toFixed(2);
 }
-function calculateShrimpSubtotal(){
-    shrimp.subTotal.value = (shrimp.Quantity.value * 4.99).toFixed(2);
+function calculateShrimpsubtotal(){
+    shrimp.subtotal.value = (shrimp.quantity.value * 4.99).toFixed(2);
 }

@@ -1,0 +1,226 @@
+[
+    {
+        "price": "0.33",
+        "name": "Banana",
+        "description": "Ripe bananas grown and harvested in Sunny side California. Great source of Potassium and vitamins!",
+        "imagePath": "Images\/banana.jpeg",
+        "category": "Fruits",
+        "quantity": "100"
+    },
+    {
+        "price": "0.50",
+        "name": "Oranges",
+        "description": "Fresh Oranges from California!",
+        "imagePath": "Images\/orange.jpg",
+        "category": "Fruits",
+        "quantity": "1"
+    },
+    {
+        "price": "0.20",
+        "name": "Cherries",
+        "description": "Fresh cherries from South America!",
+        "imagePath": "Images\/cherry.jpg",
+        "category": "Fruits",
+        "quantity": "232"
+    },
+    {
+        "price": "0.50",
+        "name": "Apple",
+        "description": "Delicious Apples. Great source of Potassium and vitamins!",
+        "imagePath": "Images\/apple.jpg",
+        "category": "Fruits",
+        "quantity": "312"
+    },
+    {
+        "price": "0.50",
+        "name": "Strawberry",
+        "description": "Fresh Montreal strawberries!",
+        "imagePath": "Images\/strawberry.jpg",
+        "category": "Fruits",
+        "quantity": "231"
+    },
+    {
+        "price": "5.99",
+        "name": "Watermelons",
+        "description": "Fresh Montreal watermelons!",
+        "imagePath": "Images\/watermelon.jpg",
+        "category": "Fruits",
+        "quantity": "32"
+    },
+    {
+        "price": "0.99",
+        "name": "Broccoli",
+        "description": "Fresh broccoli with loads of vitamins!",
+        "imagePath": "Images\/broccoli.jpg",
+        "category": "Vegetables",
+        "quantity": "86"
+    },
+    {
+        "price": "3.37",
+        "name": "Carrots",
+        "description": "Fresh farm carrots from Ontario, rich in antioxidants and nutrients.",
+        "imagePath": "Images\/carrot.jpg",
+        "category": "Vegetables",
+        "quantity": "57"
+    },
+    {
+        "price": "1.77",
+        "name": "Cauliflower",
+        "description": "Fresh cauliflowers from Ontario, a great source of vitamins and antioxidants.",
+        "imagePath": "Images\/cauliflower.jpg",
+        "category": "Vegetables",
+        "quantity": "87"
+    },
+    {
+        "price": "0.99",
+        "name": "Cucumber",
+        "description": "Fresh green cucumbers for any salad!",
+        "imagePath": "Images\/cucumber.jpg",
+        "category": "Vegetables",
+        "quantity": "107"
+    },
+    {
+        "price": "2.66",
+        "name": "Spinach",
+        "description": "Fresh spinach from Quebec, great for maintaining heart health.",
+        "imagePath": "Images\/spinach.jpg",
+        "category": "Vegetables",
+        "quantity": "34"
+    },
+    {
+        "price": "3.99",
+        "name": "Cereal",
+        "description": "Fresh cereal for a perfect breakfast!",
+        "imagePath": "Images\/cereal.jpg",
+        "category": "Grains",
+        "quantity": "23"
+    },
+    {
+        "price": "2.99",
+        "name": "Bread",
+        "description": "Fresh Montreal bread!",
+        "imagePath": "Images\/bread.jpg",
+        "category": "Grains",
+        "quantity": "34"
+    },
+    {
+        "price": "2.99",
+        "name": "Bagel",
+        "description": "Fresh Montreal bagels!",
+        "imagePath": "Images\/bagel.jpg",
+        "category": "Grains",
+        "quantity": "33"
+    },
+    {
+        "price": "2.99",
+        "name": "Croissant",
+        "description": "Fresh Montreal croissant!",
+        "imagePath": "Images\/croissant.jpg",
+        "category": "Grains",
+        "quantity": "50"
+    },
+    {
+        "price": "2.99",
+        "name": "English Muffin",
+        "description": "Fresh Montreal english muffins!",
+        "imagePath": "Images\/english-muffin.jpg",
+        "category": "Grains",
+        "quantity": "43"
+    },
+    {
+        "price": "3.99",
+        "name": "Milk",
+        "description": "Fresh, wholesome milk\u2026 naturally from Neilson. Since 1893, Neilson has stood for high quality dairy products. Neilson has always been committed to using the best ingredients, people and processes to produce great tasting quality milk you can depend on.",
+        "imagePath": "Images\/milk.jpg",
+        "category": "Dairy and Eggs",
+        "quantity": "30"
+    },
+    {
+        "price": "1.99",
+        "name": "Yogurt",
+        "description": "Enjoy the delicate sweetness of vanilla and the juiciness of ruby-red strawberries 100% Natural Source Ingredients. Made with 100% Canadian milk.",
+        "imagePath": "Images\/yogurt.jpg",
+        "category": "Dairy and Eggs",
+        "quantity": "12"
+    },
+    {
+        "price": "2.99",
+        "name": "Eggs",
+        "description": "Delicious eggs for any meal!",
+        "imagePath": "Images\/eggs.jpg",
+        "category": "Dairy and Eggs",
+        "quantity": "23"
+    },
+    {
+        "price": "1.99",
+        "name": "Cheese",
+        "description": "Fresh, wholesome cheese naturally from Quebec. Since 1874 Saputo has stood for high quality dairy products. Saputo has always been committed to using the best ingredients, people and processes to produce great tasting quality milk you can depend on.",
+        "imagePath": "Images\/cheese.jpg",
+        "category": "Dairy and Eggs",
+        "quantity": "16"
+    },
+    {
+        "price": "2.99",
+        "name": "Beef",
+        "description": "Delicious beef raised in Canada!",
+        "imagePath": "Images\/beef.jpg",
+        "category": "Meats and Poultry",
+        "quantity": "10"
+    },
+    {
+        "price": "5.99",
+        "name": "Chicken",
+        "description": "Fresh chicken raised with care!",
+        "imagePath": "Images\/chicken.jpg",
+        "category": "Meats and Poultry",
+        "quantity": "20"
+    },
+    {
+        "price": "4.99",
+        "name": "Fish",
+        "description": "Fresh fish from the Atlantic ocean!",
+        "imagePath": "Images\/fish.jpg",
+        "category": "Meats and Poultry",
+        "quantity": "32"
+    },
+    {
+        "price": "4.99",
+        "name": "Shrimp",
+        "description": "Fresh shrimp from the Atlantic ocean!",
+        "imagePath": "Images\/shrimp.jpg",
+        "category": "Meats and Poultry",
+        "quantity": "15"
+    },
+    {
+        "price": "2.99",
+        "name": "Chocolate",
+        "description": "Made with fresh milk from the British Isles and fair trade cocoa beans.",
+        "imagePath": "Images\/chocolate.jpg",
+        "category": "Snacks",
+        "quantity": "20"
+    },
+    {
+        "price": "0.05",
+        "name": "Candy",
+        "description": "Every pack of Skittles gives you the chance to Taste the Rainbow, creating a taste sensation that makes even the most stoic of unicorns smile.",
+        "imagePath": "Images\/candy.jpg",
+        "category": "Snacks",
+        "quantity": "54"
+    },
+    {
+        "price": "0.99",
+        "name": "Cookies",
+        "description": "Made with creamery butter and the maximum number of chocolate chips that we could cram in, these are still our best selling cookies after 28 years!",
+        "imagePath": "Images\/cookies.jpg",
+        "category": "Snacks",
+        "quantity": "50"
+    },
+    {
+        "price": "0.99",
+        "name": "Granola Bars",
+        "description": "Fresh Montreal granola bars with nutritional value!",
+        "imagePath": "Images\/granola.jpg",
+        "category": "Snacks",
+        "quantity": "43"
+    }
+]

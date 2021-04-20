@@ -24,3 +24,21 @@ function toggleDescription() {
     // Set the subtotal to the product of price and quantity fixed to 2 decimal places.
     document.getElementById("subtotal").value = (price * quantity).toFixed(2);
   }
+  ["test", "other", "thing"]
+  let obj = {test: "test", other:"thing"}
+  obj.test //test
+  obj.other //thing
+
+  function addToCart() {
+    $("#add").click(() => {
+      $.post("addToCart.php", {name:"", price:document.getElementById("price").innerHTML}, (data) => {
+        document.getElementById("price").innerHTML = data.split(", ")[0]; //10.9910.99test
+      })
+      $.post("modifyCart.php", {operation:"add", target:0}, (data) => {
+        document.getElementById("quantity").innerHTML =  data;
+      })
+      $.post("modifyCart.php", {operation:"add", target:0}, (data) => {
+        document.getElementById("quantity").innerHTML =  data;
+      })
+    })
+  }
